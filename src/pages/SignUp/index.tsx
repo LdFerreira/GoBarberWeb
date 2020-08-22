@@ -35,12 +35,11 @@ const SignUp: React.FC = () => {
             .email('Digite um e-mail válido'),
           password: Yup.string().min(6, 'No minimo 6 digitos'),
         });
-
         await schema.validate(data, {
           abortEarly: false,
         });
-        await api.post('/users', data);
 
+        await api.post('/users', data);
         history.push('/');
 
         addToast({

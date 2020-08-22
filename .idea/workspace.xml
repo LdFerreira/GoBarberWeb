@@ -5,20 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2971727c-3311-4f37-b73f-4487940f50bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ResetPassword/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ResetPassword/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Profile/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Profile/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/AuthContext.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignIn/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignIn/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToastContainer/Toast/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToastContainer/Toast/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToastContainer/Toast/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToastContainer/Toast/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/auth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SignUp/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignUp/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +49,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +70,16 @@
       <updated>1591989363276</updated>
       <workItem from="1591989366176" duration="73000" />
       <workItem from="1596293317041" duration="5837000" />
-      <workItem from="1596313800937" duration="8721000" />
+      <workItem from="1596313800937" duration="9139000" />
+      <workItem from="1596490067901" duration="1142000" />
+      <workItem from="1596491437397" duration="865000" />
+      <workItem from="1596503189515" duration="1783000" />
+      <workItem from="1596578796324" duration="2451000" />
+      <workItem from="1596582747677" duration="5942000" />
+      <workItem from="1596669464998" duration="502000" />
+      <workItem from="1596747989387" duration="6634000" />
+      <workItem from="1598125766874" duration="277000" />
+      <workItem from="1598130158301" duration="517000" />
     </task>
     <servers />
   </component>
@@ -79,22 +87,28 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596748918452">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.1920.1058@0.22.1920.1058" timestamp="1596748918452" />
     <state x="310" y="121" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596313545663">
       <screen x="0" y="22" width="1920" height="1058" />
     </state>
     <state x="310" y="121" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.22.1920.1058@0.22.1920.1058" timestamp="1596313545663" />
-    <state x="86" y="91" width="1307" height="780" key="SettingsEditor" timestamp="1596314895200">
+    <state x="86" y="91" width="1307" height="780" key="SettingsEditor" timestamp="1596749216566">
       <screen x="0" y="22" width="1920" height="1058" />
     </state>
     <state x="327" y="97" width="1307" height="780" key="SettingsEditor/0.22.1920.1058/-1280.22.1280.778@0.22.1920.1058" timestamp="1596297442908" />
-    <state x="86" y="91" key="SettingsEditor/0.22.1920.1058@0.22.1920.1058" timestamp="1596314895200" />
-    <state x="653" y="290" width="613" height="522" key="find.popup" timestamp="1596329974470">
-      <screen x="0" y="22" width="1920" height="1058" />
+    <state x="86" y="91" key="SettingsEditor/0.22.1920.1058@0.22.1920.1058" timestamp="1596749216566" />
+    <state x="496" y="200" width="613" height="533" key="find.popup" timestamp="1596756912590">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="653" y="290" width="613" height="522" key="find.popup/0.22.1920.1058@0.22.1920.1058" timestamp="1596329974470" />
-    <state x="625" y="257" width="670" height="676" key="search.everywhere.popup" timestamp="1596317763166">
-      <screen x="0" y="22" width="1920" height="1058" />
+    <state x="496" y="200" width="613" height="533" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1596756912590" />
+    <state x="496" y="218" width="613" height="522" key="find.popup/0.22.1920.1058@0.22.1920.1058" timestamp="1596752967527" />
+    <state x="625" y="240" width="670" height="691" key="search.everywhere.popup" timestamp="1596756236540">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="625" y="257" width="670" height="676" key="search.everywhere.popup/0.22.1920.1058@0.22.1920.1058" timestamp="1596317763166" />
+    <state x="625" y="240" width="670" height="691" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1596756236540" />
+    <state x="625" y="257" width="670" height="676" key="search.everywhere.popup/0.22.1920.1058@0.22.1920.1058" timestamp="1596755348625" />
   </component>
 </project>
